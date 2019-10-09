@@ -1,0 +1,10 @@
+# Ignore these following files
+
+.vscode/
+
+__pycache__/
+
+env/
+
+.DS_Store
+
