@@ -1,5 +1,5 @@
 # CornList
-![img/CornListPage.png](WebPage)
+![WebPage](img/CornListPage.png)
 Simple web page for corn, all the lovely corn you need
 
 # How To Run
