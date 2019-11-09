@@ -11,7 +11,7 @@ Home page linking to Gameheads
 ![webpages](img/Webpages.png)
 
 ### Passwords
-![passwords](img/Passwords.png)
+![passwords](img/Password.png)
 
 ### Networks
 ![Network](img/Networks.png)
@@ -20,6 +20,8 @@ Home page linking to Gameheads
 1. Use [Heroku](https://basic-security.herokuapp.com/)
 
 2. Clone the repo
-        export FLASK_ENV=development
-        flask run
-        [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+```
+export FLASK_ENV=development
+flask run
+[http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+```
