@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="{{ url_for('static', filename = 'css/aos.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
 
+  <link rel="stylesheet" href="static/css/hsimp.jquery.css">
+
   <!-- Fonts -->
   <link rel="stylesheet" href="{{ url_for('static', filename = 'fonts/flaticon/font/flaticon.css') }}">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -103,19 +105,13 @@
 
       <div class="row align-items-center speaker">
         <div class="col-lg-6 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade" data-aos-delay="100">
-          <img src="static/images/person_1.jpg" alt="Image" class="img-fluid">
+          <img src="static/images/padlock.png" alt="Image" class="img-fluid">
         </div>
         <div class="col-lg-6 ml-auto">
-          <h2 class="text-white mb-4 name aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Emely Peters</h2>
+          <h2 class="text-white mb-4 name aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Secure Connections</h2>
           <div class="bio pl-lg-5">
-            <span class="text-uppercase text-primary d-block mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
+            <span class="text-uppercase text-primary d-block mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">Secure</span>
             <p class="mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
-            <p data-aos="fade-right" data-aos-delay="500" class="aos-init aos-animate">
-              Follow Emely —
-              <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-github"></span></a>
-            </p>
           </div>
         </div>
       </div>
@@ -124,19 +120,12 @@
 
       <div class="row align-items-center speaker">
         <div class="col-lg-6 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade" data-aos-delay="100">
-          <img src="static/images/person_3.jpg" alt="Image" class="img-fluid">
+          <img src="static/images/notlock.png" alt="Image" class="img-fluid">
         </div>
         <div class="col-lg-6 ml-auto">
-          <h2 class="text-white mb-4 name aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Aaron Thomas</h2>
           <div class="bio pl-lg-5">
-            <span class="text-uppercase text-primary d-block mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
+            <span class="text-uppercase text-primary d-block mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">Not Secure</span>
             <p class="mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
-            <p data-aos="fade-right" data-aos-delay="500" class="aos-init aos-animate">
-              Follow Aaron —
-              <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-              <a href="#" class="p-2"><span class="icon-github"></span></a>
-            </p>
           </div>
         </div>
       </div>
@@ -166,20 +155,13 @@
       <div class="row align-items-stretch program">
         <div class="col-12 border-top border-bottom py-5 aos-init aos-animate" data-aos="fade" data-aos-delay="200">
           <div class="row align-items-stretch">
-            <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
+            <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">Test Your Password</span></div>
             <div class="col-md-9">
-              <h2 class="text-white">Design your open source strategy</h2>
-              <span>Chris Mathews</span>
+              <h2 class="text-white">It would take:   Long</h2>
+              <span><input id="password-1" type="password" /></span>
             </div>
           </div>
         </div>
-
-        <div class="col-12 border-bottom py-5 aos-init aos-animate" data-aos="fade" data-aos-delay="300">
-          <div class="row align-items-stretch">
-            <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">9:30</span> <span>AM</span></div>
-            <div class="col-md-9">
-              <h2 class="text-white">Design your open source strategy</h2>
-              <span>Chris Mathews</span>
             </div>
           </div>
         </div>
@@ -239,7 +221,6 @@
   </footer>
   
 
-
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-3.3.1.min.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-migrate-3.0.1.min.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-ui.js') }}"></script>
@@ -253,6 +234,21 @@
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/aos.js') }}"></script>
 
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/main.js') }}"></script>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/hsimp.jquery.min.js') }}"></script>
+        <script>
+            jQuery(function ($) {
+                "use strict";
+
+                $("#password-1").hsimp({
+                    calculationsPerSecond: 10e9, // 10 billion
+                    good: 31557600e9, // 1 billion years
+                    ok: 31557600e2,  // 100 years
+                });
+            });
+        </script>
   
 
 </body></html>
