@@ -14,7 +14,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    # if input == open('10-miilion-password-list-top-100000.txt').read():
+    #     print('Success')
+    # else:
+    #     print('Fail')
+
+    # return render_template('index.html')
 
 
 
