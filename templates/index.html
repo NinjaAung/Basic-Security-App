@@ -1,79 +1,258 @@
-<!doctype html>
-<html>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-        <title>Basic Security</title>
+<html lang="en"><head>
+  <title>NoobSecurity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <style>
-            body {
-                padding: 40px;
-                position: relative;
-                font-family: sans-serif;
-                font-size: 1em;
-                font-weight: 300;
-            }
 
-            input {
-                font-family: sans-serif;
-                font-size: 1em;
-                font-weight: 300;
-                color: #888;
-                border: 1px solid #bbb;
-                border-radius: 3px;
-                padding: 0.25em 10px;
-                line-height: 1.5em;
-            }
+  <!-- "{{ url_for('static', filename = 'js/hsimp.jquery.min.js') }}" -->
 
-            label::after {
-                content: ":";
-            }
+  <!-- CSS Stlesheets -->
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'fonts/icomoon/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/magnific-popup.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/jquery-ui.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/owl.carousel.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/owl.theme.default.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/bootstrap-datepicker.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/aos.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
 
-            div {
-                margin-bottom: 10px;
-            }
+  <!-- Fonts -->
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'fonts/flaticon/font/flaticon.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 
-            .hsimp-time {
-                display: inline;
-                margin-left: 10px;
-            }
 
-            .hsimp-checks li {
-                list-style: none;
-            }
+</head>
+<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
 
-            .hsimp-checks h2 {
-                font-size: 0.8em;
-                margin-bottom: 0;
-            }
+<div class="site-wrap">
 
-            .hsimp-checks p {
-                margin-top: 0;
-                font-size: 0.7em;
-            }
-        </style>
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"><ul class="site-nav-wrap">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#">Wepages</a></li>
+              <li><a href="#">Passwords</a></li>
+              <li><a href="#">Networks</a></li>
+              <li class="cta"><a href="buy-tickets.html">Buy Tickets</a></li>
+            </ul><ul class="site-nav-wrap">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#">Wepages</a></li>
+              <li><a href="#">Passwords</a></li>
+              <li><a href="#">Networks</a></li>
+              
+            </ul></div>
+  </div>
+  
+  <header class="site-navbar py-3" role="banner">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-11 col-xl-2">
+          <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">Noob<span class="text-primary">Security</span> </a></h1>
+        </div>
+        <div class="col-12 col-md-10 d-none d-xl-block">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+            <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#">Wepages</a></li>
+              <li><a href="#">Passwords</a></li>
+              <li><a href="#">Networks</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+        <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+        </div>
+      </div>
+    </header></div>
+  
 
-        <link rel="stylesheet" href="static/css/hsimp.jquery.css">
-    </head>
-    <body>
-        <div>
-            <label>Password</label>
-            <input id="password-1" type="password" />
+  <div class="site-section site-hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-10">
+          <span class="d-block mb-3 caption aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">AfroTech 2019</span>
+          <h1 class="d-block mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">DevOps Security Project</h1>
+          <span class="d-block mb-5 caption aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">Presented by: Nyein Chan Aung</span>
+          <a href="https://gameheadsoakland.org/" class="btn-custom aos-init aos-animate" data-aos="fade-up" data-aos-delay="400"><span>Gameheads Page</span></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="site-section-heading">
+            <h2>Wepages</h2>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 pl-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center speaker">
+        <div class="col-lg-6 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+          <img src="static/images/person_1.jpg" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6 ml-auto">
+          <h2 class="text-white mb-4 name aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Emely Peters</h2>
+          <div class="bio pl-lg-5">
+            <span class="text-uppercase text-primary d-block mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
+            <p class="mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
+            <p data-aos="fade-right" data-aos-delay="500" class="aos-init aos-animate">
+              Follow Emely —
+              <a href="#" class="p-2"><span class="icon-facebook"></span></a>
+              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
+              <a href="#" class="p-2"><span class="icon-github"></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="row align-items-center speaker">
+        <div class="col-lg-6 mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+          <img src="static/images/person_3.jpg" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6 ml-auto">
+          <h2 class="text-white mb-4 name aos-init aos-animate" data-aos="fade-right" data-aos-delay="200">Aaron Thomas</h2>
+          <div class="bio pl-lg-5">
+            <span class="text-uppercase text-primary d-block mb-3 aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
+            <p class="mb-4 aos-init aos-animate" data-aos="fade-right" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus. Minima architecto impedit eaque molestiae dicta quam. Cum ducimus. Culpa distinctio aperiam</p>
+            <p data-aos="fade-right" data-aos-delay="500" class="aos-init aos-animate">
+              Follow Aaron —
+              <a href="#" class="p-2"><span class="icon-facebook"></span></a>
+              <a href="#" class="p-2"><span class="icon-twitter"></span></a>
+              <a href="#" class="p-2"><span class="icon-github"></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    
+      
+
+      
+    </div>
+  </div>
+
+
+  
+  <div class="site-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up">
+          <div class="site-section-heading">
+            <h2>Passwords</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 pl-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+        </div>
+      </div>
+
+      <div class="row align-items-stretch program">
+        <div class="col-12 border-top border-bottom py-5 aos-init aos-animate" data-aos="fade" data-aos-delay="200">
+          <div class="row align-items-stretch">
+            <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">8:00</span> <span>AM</span></div>
+            <div class="col-md-9">
+              <h2 class="text-white">Design your open source strategy</h2>
+              <span>Chris Mathews</span>
+            </div>
+          </div>
         </div>
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <div class="col-12 border-bottom py-5 aos-init aos-animate" data-aos="fade" data-aos-delay="300">
+          <div class="row align-items-stretch">
+            <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">9:30</span> <span>AM</span></div>
+            <div class="col-md-9">
+              <h2 class="text-white">Design your open source strategy</h2>
+              <span>Chris Mathews</span>
+            </div>
+          </div>
+        </div>
 
-        <script type="text/javascript" src="{{ url_for('static', filename = 'js/hsimp.jquery.min.js') }}"></script>
-        <script>
-            jQuery(function ($) {
-                "use strict";
+        
 
-                $("#password-1, #password-2").hsimp({
-                    calculationsPerSecond: 10e9, // 10 billion
-                    good: 31557600e9, // 1 billion years
-                    ok: 31557600e2,  // 100 years
-                });
-            });
-        </script>
-    </body>
-</html>
+        
+
+        
+
+        
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-lg-4 ">
+          <div class="site-section-heading aos-init aos-animate" data-aos="fade-up">
+            <h2>Networks</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 pl-lg-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error deleniti dolores necessitatibus eligendi. Nesciunt repellendus ab voluptatibus.</p>
+        </div>
+      </div>
+      
+
+      <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+        <div class="col-12 text-center pt-5">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+    
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-3 ml-auto">
+          <h2 class="footer-heading text-uppercase mb-4">Quick Links</h2>
+          <ul class="list-unstyled">
+            <li><a href="#">Wepages</a></li>
+            <li><a href="#">Passwords</a></li>
+            <li><a href="#">Networks</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      
+    </div>
+  </footer>
+  
+
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-3.3.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-migrate-3.0.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery-ui.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/popper.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/owl.carousel.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery.stellar.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery.countdown.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/jquery.magnific-popup.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/bootstrap-datepicker.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/aos.js') }}"></script>
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/main.js') }}"></script>
+  
+
+</body></html>
